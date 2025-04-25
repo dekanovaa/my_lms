@@ -1,0 +1,100 @@
+<!-- lg:pl-100 pr-10 pl-5 -->
+<div class="max-w-7xl w-full mx-auto p-5">
+    <div class="pt-5 pb-5">
+      <p class="text-gray-400">Bosh sahifa > Kurslar > Angular</p>
+    </div>
+    <!-- hgbh -->
+    <div class="lg:flex lg:justify-between lg:items-start gap-5 lg:mb-0 mb-3">
+      <div>
+        <div
+          class="wrap flex items-center justify-center bg-cover bg-center lg:w-200 lg:h-[500px] w-full sm:h-100 h-[330px]"
+        ></div>
+        <h3 class="font-semibold text-3xl mb-5 mt-4 text-[#5C88C4]">Kurs haqida</h3>
+      </div>
+      <div
+        class="bg-white max-w-100 h-auto w-full p-5 shadow-md hover:shadow-xl transition-shadow flex flex-col"
+      >
+        <div class="w-full h-50 bg-gray-200 mb-4">video uchun</div>
+        <h2 class="text-3xl font-bold mb-4 text-[#5C88C4]">
+          <span class="text-xl font-semibold text-black text-black">Kurs narxi: </span> 20 $
+        </h2>
+        <span class="text-xl font-semibold">Kurs O'qituvchisi:</span>
+        <p class="mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          laudantium incidunt quam dolor, illo porro voluptatibus unde? Minima
+          adipisci itaque esse, autem vitae aperiam odit ipsam dolore provident
+          ipsum alias.
+        </p>
+        <a [routerLink]="['course-angular']">
+          <button
+            class="text-white pt-3 pb-3 pr-5 pl-5 border border-[#FC8F54] rounded-lg bg-[#FC8F54] font-bold w-full mt-auto hover:bg-white hover:text-blue-400 cursor-pointer"
+          >
+            Kursni boshlash
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="gap-5 flex flex-col">
+      <div class="bg-gray-50 p-5 rounded-lg">
+        <h4 class="font-semibold text-2xl mb-5">Kursning mazmuni</h4>
+        <ul
+          class="flex sm:items-start sm:flex-row sm:gap-[60px] flex-wrap gap-10 mb-4"
+        >
+          <li>
+            <i class="fa-solid fa-bars text-xl text-[#5C88C4]"></i>
+            <p class="font-semibold text-xl">Modullar soni</p>
+            <p class="text-xl font-semibold">4</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-tv text-xl text-[#5C88C4]"></i>
+            <p class="font-semibold text-xl">Darslar soni</p>
+            <p class="text-xl font-semibold">28</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-calendar-days text-xl text-[#5C88C4]"></i>
+            <p class="font-semibold text-xl">Kurs davomiyligi</p>
+            <p class="text-xl font-semibold">16 soat 50 daqiqa</p>
+          </li>
+        </ul>
+        <!-- menu -->
+        <app-course-module></app-course-module>
+        <app-course-module></app-course-module>
+        <app-course-module></app-course-module>
+        <app-course-module></app-course-module>
+      </div>
+      <div class="bg-gray-50 p-5 rounded-lg">
+        <h4 class="font-semibold text-2xl mb-5">Nimalarni o'rganasiz?</h4>
+        <ul class="grid sm:grid-cols-3 gap-3">
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Service</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Angular Forms</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Ng Zorro</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">CRUD</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Type Script</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Pipes</p>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fa-regular fa-circle-check text-xl text-[#5C88C4]"></i>
+            <p class="text-xl">Routes</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
